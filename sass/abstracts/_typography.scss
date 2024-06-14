@@ -1,0 +1,23 @@
+$ff-sans: "Plus Jakarta Sans", sans-serif;
+$ff-serif: serif;
+
+$ff-base: $ff-sans;
+$ff-accent: $ff-serif;
+
+$font-sizes: (
+              // 36                    56
+  900: clamp(2.25rem, .4rem + 4vw, 3.375rem),
+  800: clamp(1.625rem, 0.5rem + 4vw, 2.5rem),
+  700: 2rem,
+  600: clamp(1.5rem, 0.5rem + 2vw, 2rem),
+  500: 1.3125rem,
+  400: 1.125rem,
+  300: 1rem,
+  200: .875rem,
+);
+
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+  
