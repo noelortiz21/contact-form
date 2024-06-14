@@ -1,9 +1,12 @@
 @use '../abstracts/' as *;
 
 body{
+    display: grid;
+    height: 100vh;
+    place-content: center;
     font-family: $ff-base;
     font-weight: $fw-400;
-    font-size: fs(400);
-    color: clr(primary,400);
+    font-size: fs(300);
+    background-color: clr(neutral,200);
     line-height: 1.5;
 }

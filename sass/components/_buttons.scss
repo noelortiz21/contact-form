@@ -1,7 +1,7 @@
 @use '../abstracts/' as *;
 
 .button{
-    display:inline-block;
+    display:inline-flex;
     cursor: pointer;
     text-decoration: none;
     // text-transform: uppercase;
@@ -11,24 +11,24 @@
     width: 176px;
     // height: 44px;
     //this is for bigger than mobile padding
-    padding: 16px 27px;
-    background-color: clr(primary,900);
-    border-radius: 100vw;
-    font-size: fs(200);
+    padding: 16px 115.5px;
+    border-radius: 8px;
+    font-size: fs(400);
     font-weight: $fw-700;
-    color: clr(primary,100);
+    background-color: clr(primary,600);
+    color: clr(neutral,100);
 
     &:is(:hover, :focus){
-        background-color: clr(neutral,900);
+        background-color: none;
     }
     
     &[data-type='accent']{
-        background-color: clr(neutral,400);
-        color: clr(primary,100);
+        background-color: none;
+        color: none;
 
         &:is(:hover, :focus){
-            background-color: clr(neutral,300);
-            color: clr(primary,100);
+            background-color: none;
+            color: none;
         }
     }
 
